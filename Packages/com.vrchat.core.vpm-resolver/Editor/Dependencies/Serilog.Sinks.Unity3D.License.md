@@ -1,6 +1,8 @@
-MIT License
 
-Copyright (c) 2025 Kuroné Kito (黒音キト)
+The MIT License (MIT)
+
+Copyright (c) 2020 Kurai András
+Copyright (c) 2022-Present VRChat Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
