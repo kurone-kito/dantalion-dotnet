@@ -1,48 +1,27 @@
-# 🐱 VPM Project template for VRChat World
+# 🦁 dantalion-dotnet
 
-My template for the VPM project (for VRChat worlds creation)
+NuGet/VPM library and CLI sample app that calculates the personality
+from the birthday.
 
-## 💭 Difference from original template
+see: [Dantalion for NPM](https://kurone-kito.github.io/dantalion/)
 
-- Added some linters e.g. CSpell, EditorConfig, Markdownlint
-- Added some actions e.g. CodeQL, CodeRabbit.AI, Dependabot
-- Auto invoke the VPM registry update when the package is updated
-- Improved a deployment process with GPG signing
-- Improved a GitHub Actions for testing and building
-- Improved the git attributes and ignore files
-- and more...
+## System Requirements
+
+- NuGet edition: .NET 8.x or later
+- VPM edition: Unity 2022.3.22f1 and [VCC](https://vrchat.com/home/download) or [ALCOM](https://vrc-get.anatawa12.com/ja/alcom/)
 
 ## ▶ Getting Started
 
-### 1. Import the registry via the VRChat Creator Companion (VCC)
+### 1. Import the registry via the VCC or ALCOM
 
-Visit the **[VPM Catalogue page](https://kurone-kito.github.io/vpm/)** and click on the **Add to VCC** button.
+**[Add to VCC](vcc://vpm/addRepo?url=https%3A%2F%2Fkurone-kito.github.io%2Fvpm%2Findex.json)**
 
-### 2. Import the package to your project
+### 2. Import the Dantalion package to your project
 
 1. Click on the "Manage Project" button in the VCC
-2. Find the "VRChat Example Package" package and click on the "(+) Add package" button
+2. Find the "Dantalion" package and click on the "(+) Add package" button
 
-### 3. Use the package, enjoy :D
-
-## 🤖 Setting up the Automation
-
-Create a repository variable with the name and value described below.
-For details on how to create repository variables, see [Creating Configuration Variables for a Repository](https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository).
-Make sure you are creating a **repository variable**, and not a **repository secret**.
-
-- `PACKAGE_NAME`: the name of your package, like `com.vrchat.demo-template`.
-
-Finally, go to the "Settings" page for your repo, then choose "Pages", and look for the heading "Build and deployment". Change the "Source" dropdown from "Deploy from a branch" to "GitHub Actions".
-
-That's it!
-Some other notes:
-
-- We highly recommend you keep the existing folder structure of this template.
-  - The root of the project should be a Unity project.
-  - Your packages should be in the "Packages" directory.
-  - If you deviate from this folder structure, you'll need to update the paths that assume your package is in the "Packages" directory on lines 24, 38, 41 and 57.
-- If you want to store and generate your web files in a folder other than "Website" in the root, you can change the `listPublicDirectory` item [here in build-listing.yml](.github/workflows/build-listing.yml#L17).
+### 3. Use the utilities, enjoy :D
 
 ## Contributing
 

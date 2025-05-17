@@ -30,6 +30,7 @@ language: en,ja
 useGitignore: true
 version: "0.2"
 words:
+  - alcom
   - dwlt
   - kito
   - kuroné

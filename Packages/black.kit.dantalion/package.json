@@ -1,0 +1,27 @@
+{
+  "name": "black.kit.dantalion",
+  "displayName": "Dantalion",
+  "version": "0.1.0-alpha.1",
+  "description": "四柱推命に基づいた性格診断ライブラリ / The VPM library that calculates the personality from the birthday.",
+  "keywords": [
+    "ba-zi",
+    "birthday",
+    "calculation",
+    "fortune",
+    "four-pillars",
+    "self-assessment"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://opensource.org/licenses/MIT",
+  "changelogUrl": "https://github.com/kurone-kito/dantalion-dotnet/releases",
+  "documentationUrl": "https://github.com/kurone-kito/dantalion-dotnet",
+  "author": {
+    "name": "Kuroné Kito",
+    "email": "krone@kit.black",
+    "url": "https://kit.black/"
+  },
+  "dependencies": {},
+  "unity": "2022.3",
+  "unityRelease": "22f1",
+  "vpmDependencies": {}
+}

@@ -1,9 +1,8 @@
 {
-    "name": "VRChatPackageTemplate.Editor",
+    "name": "black.kit.dantalion",
+    "rootNamespace": "black.kit.dantalion",
     "references": [],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
