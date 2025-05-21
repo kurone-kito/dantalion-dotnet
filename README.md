@@ -23,6 +23,27 @@ see: [Dantalion for NPM](https://kurone-kito.github.io/dantalion/)
 
 ### 3. Use the utilities, enjoy :D
 
+```cs
+using black.kit.dantalion;
+using UnityEngine;
+
+public class Example : UdonSharpBehaviour
+{
+    void Start()
+    {
+        // Get the birthday from the user
+        var birthday = new DateTime(2000, 1, 1);
+
+        // Calculate the personality
+        var personality = Dantalion.GetPersonality(birthday);
+        var inner = personality[(int)PersonalityIndex.Inner];
+        var details = Dantalion.GetGeniusDetails((Genius)inner);
+    }
+}
+```
+
+For type definitions, please refer to the [Wiki of the TypeScript version](https://github.com/kurone-kito/dantalion/wiki/Types).
+
 ## Contributing
 
 Welcome to contribute to this repository! For more details,
