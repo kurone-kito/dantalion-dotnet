@@ -22,4 +22,6 @@ the recorded policy.
 `.claude/settings.json` records a curated permission baseline for Claude
 Code sessions (see `docs/permissions.md#claude-code-permission-baseline`),
 and `.claude/skills/issue-authoring/` provides the issue-authoring skill
-used to decompose larger requests into IDD-ready issues.
+used to decompose larger requests into IDD-ready issues. The optional
+`idd-spec-audit` companion is deliberately deferred and not installed;
+see [docs/idd-policy.md](docs/idd-policy.md).
