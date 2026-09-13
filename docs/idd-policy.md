@@ -47,7 +47,14 @@ This repository uses the following IDD policies:
 
 ### Issue-Authoring Companion
 
-**Status**: `installed`
+**Status**: `not installed` (core-bootstrap temporary state)
+
+The confirmed hearing's real answer is `installed`, with native
+destination `.claude/skills/issue-authoring/`. Per
+`docs/onboarding/issue-mediated-bootstrap.md`, the core-bootstrap PR
+(#4) always records the temporary `not installed` state here and
+leaves the companion files out of this PR; #7 installs the companion
+and flips this status to `installed`.
 
 ### Helper Runtime Profile
 

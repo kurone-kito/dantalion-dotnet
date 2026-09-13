@@ -34,7 +34,12 @@ The agent that imports or runs IDD needs access to:
 
 Open an agent session in the target repository and ask it to import the
 IDD template from the idd-skill source repository. If the template has
-already been copied, start from the local `ONBOARDING.md` file instead.
+already been copied under a profile that vendors `ONBOARDING.md` into
+the target repository, start from the local file instead; this
+repository's `ephemeral-npx` / issue-mediated-bootstrap profile does
+not vendor it, so use the pinned upstream copy instead (the exact
+source revision is recorded in `.github/idd/config.json`'s
+`helperRuntime.packageSpec`).
 
 The onboarding guide is a thin orchestrator: it copies the portable
 instruction files, asks for project-specific command values, and
