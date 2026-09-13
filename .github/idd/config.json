@@ -1,0 +1,42 @@
+{
+  "$schema": "https://kurone-kito.github.io/idd-skill/schemas/policy.schema.json",
+  "iddVersion": "0.11.0",
+  "markerPrefix": "dantalion-dotnet",
+  "mergePolicy": "fully_autonomous_merge",
+  "mergePolicyAck": "fully_autonomous_merge",
+  "reviewPolicy": "copilot-advisory",
+  "threadResolutionPolicy": "fast-agent-resolve",
+  "claimTiming": {
+    "staleAge": "PT24H",
+    "heartbeatInterval": "PT12H"
+  },
+  "trustedMarkerActors": [
+    "kurone-kito"
+  ],
+  "workshop": {
+    "exampleRepository": ""
+  },
+  "commands": {
+    "install-deps": "true",
+    "fix-validate": "true",
+    "pre-push-validate": "true",
+    "post-fix-validate": "true"
+  },
+  "issueScope": "roadmap-first",
+  "orphanFirstPolicy": "none",
+  "advisoryWait": {
+    "convergenceScope": "all-prs"
+  },
+  "autopilotSuitability": {
+    "floor": 3
+  },
+  "ciWait": {
+    "rerunPolicy": "rerun-once"
+  },
+  "maintainerApprovalActorPolicy": "owners-and-maintainers-only",
+  "helperRuntime": {
+    "profile": "ephemeral-npx",
+    "packageSpec": "https://codeload.github.com/kurone-kito/idd-skill/tar.gz/adad8ae43c5a1b6fc3a100ce384c8a84a8d5139d"
+  },
+  "developmentBranch": "main"
+}
