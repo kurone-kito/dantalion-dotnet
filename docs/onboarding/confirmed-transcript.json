@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "confirmedAt": "2026-09-12T16:35:53.567Z",
+  "answers": [
+    {
+      "id": "REPO_NAME",
+      "value": "dantalion-dotnet"
+    },
+    {
+      "id": "PROJECT_MARKER_PREFIX",
+      "value": "dantalion-dotnet"
+    },
+    {
+      "id": "TRUSTED_MARKER_ACTOR",
+      "value": "kurone-kito"
+    },
+    {
+      "id": "FIX_VALIDATE_COMMANDS",
+      "value": "true"
+    },
+    {
+      "id": "PRE_PUSH_VALIDATE_COMMANDS",
+      "value": "true"
+    },
+    {
+      "id": "POST_FIX_VALIDATE_COMMANDS",
+      "value": "true"
+    },
+    {
+      "id": "INSTALL_DEPS_COMMAND",
+      "value": "true"
+    },
+    {
+      "id": "merge-policy",
+      "value": "fully_autonomous_merge"
+    },
+    {
+      "id": "review-policy",
+      "value": "copilot-advisory"
+    },
+    {
+      "id": "thread-resolution-policy",
+      "value": "fast-agent-resolve"
+    },
+    {
+      "id": "critique-loop-profile",
+      "value": "distributed-defaults"
+    },
+    {
+      "id": "credential-scope",
+      "value": "Worker agent for normal phases; merge-capable agent for the same trusted session under fully_autonomous_merge"
+    },
+    {
+      "id": "claim-timing",
+      "value": "distributed-defaults"
+    },
+    {
+      "id": "ci-wait-policy",
+      "value": "rerun-once"
+    },
+    {
+      "id": "issue-author-approval-gate",
+      "value": "enabled-by-default"
+    },
+    {
+      "id": "maintainer-approval-actor-policy",
+      "value": "owners-and-maintainers-only"
+    },
+    {
+      "id": "issue-authoring-companion",
+      "value": "installed"
+    },
+    {
+      "id": "helper-runtime-profile",
+      "value": "ephemeral-npx"
+    },
+    {
+      "id": "idd-label-names",
+      "value": "distributed-defaults"
+    },
+    {
+      "id": "up-to-date-head-ruleset",
+      "value": "disabled"
+    },
+    {
+      "id": "bootstrap-execution-mode",
+      "value": "issue-mediated"
+    },
+    {
+      "id": "development-branch",
+      "value": "main"
+    }
+  ]
+}
