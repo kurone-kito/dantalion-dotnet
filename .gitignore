@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Claude Code: this repository intentionally tracks .claude/settings.json
+# as a shared permission baseline (see docs/permissions.md and issue #7),
+# overriding a machine-global `.claude/*` ignore rule that otherwise keeps
+# Claude Code config local-only. .claude/settings.local.json stays
+# untracked for personal additions.
+!.claude/settings.json
