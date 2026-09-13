@@ -52,10 +52,13 @@ placeholder companion docs by hand.
 ### Validate the import with IDD doctor (optional)
 
 After importing IDD, run the doctor script once in a repository that
-has the helper installed to catch common setup drift:
+has the helper installed to catch common setup drift. The
+`node scripts/idd-doctor.mjs` form only applies to the `vendored-node`
+profile; this repository's `ephemeral-npx` profile has no local
+`scripts/` directory, so use the pinned package spec instead:
 
 ```sh
-node scripts/idd-doctor.mjs
+npx --yes --package <helperRuntime.packageSpec> idd-doctor
 ```
 
 The report checks core IDD file presence, unresolved placeholders,
