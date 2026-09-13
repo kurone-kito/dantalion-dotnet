@@ -29,5 +29,7 @@ Marker prefix: `dantalion-dotnet`. Merge policy: `fully_autonomous_merge`.
 See [docs/idd-policy.md](docs/idd-policy.md) for the full recorded
 policy.
 
-When decomposing work into issues, use
-`.claude/skills/issue-authoring/SKILL.md`.
+Once #7 installs the issue-authoring companion, use
+`.claude/skills/issue-authoring/SKILL.md` when decomposing work into
+issues. It is not installed yet (see
+[docs/idd-policy.md](docs/idd-policy.md)).

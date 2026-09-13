@@ -1,51 +1,51 @@
-## IDD Policy Configuration
+# IDD Policy Configuration
 
 This repository uses the following IDD policies:
 
-### Development Branch
+## Development Branch
 
 **Branch**: `main`
 
-### Merge Policy
+## Merge Policy
 
 **Policy**: `fully_autonomous_merge`
 
-### PR Review Policy
+## PR Review Policy
 
 **Profile**: `copilot-advisory`
 
-### Review-Thread Resolution Policy
+## Review-Thread Resolution Policy
 
 **Policy**: `fast-agent-resolve`
 
-### Critique-Loop Profile
+## Critique-Loop Profile
 
 **Profile**: `distributed-defaults`
 
-### Credential Scope
+## Credential Scope
 
 **Scope**: `Worker agent for normal phases; merge-capable agent for the same trusted session under fully_autonomous_merge`
 
-### Claim Timing
+## Claim Timing
 
 - **claim-stale-age**: 24 h (distributed default)
 - **claim-heartbeat-interval**: 12 h (distributed default)
 
-### CI Wait Policy
+## CI Wait Policy
 
 - **running timeout**: `PT30M` / 30 min (distributed default, not confirmed by this hearing item)
 - **generation timeout**: `PT10M` / 10 min (distributed default, not confirmed by this hearing item)
 - **rerun policy**: `rerun-once`
 
-### Issue-Author Approval Gate
+## Issue-Author Approval Gate
 
 **Selection**: `enabled-by-default`
 
-### Maintainer Approval Actor Policy
+## Maintainer Approval Actor Policy
 
 **Policy**: `owners-and-maintainers-only`
 
-### Issue-Authoring Companion
+## Issue-Authoring Companion
 
 **Status**: `not installed` (core-bootstrap temporary state)
 
@@ -56,18 +56,18 @@ destination `.claude/skills/issue-authoring/`. Per
 leaves the companion files out of this PR; #7 installs the companion
 and flips this status to `installed`.
 
-### Helper Runtime Profile
+## Helper Runtime Profile
 
 **Profile**: `ephemeral-npx`
 
-### IDD Label Names
+## IDD Label Names
 
 **Selection**: `distributed-defaults`
 
-### Up-to-Date-Head Ruleset
+## Up-to-Date-Head Ruleset
 
 **Policy**: `disabled`
 
-### Bootstrap Execution Mode
+## Bootstrap Execution Mode
 
 **Mode**: `issue-mediated`

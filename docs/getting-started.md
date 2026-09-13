@@ -25,8 +25,8 @@ The agent that imports or runs IDD needs access to:
 - an authenticated `gh` CLI or equivalent GitHub integration
 - `jq`
 - Node.js/npm with `npx` (optional; only required if the project's
-  validate commands use `npx`. Non-Node.js projects should set validate
-  commands to their project tooling or to `true` as a no-op — see
+  validate commands use `npx`, or if `helperRuntime.profile` is
+  `ephemeral-npx` as it is in this repository — see
   [Tooling boundary](customization.md#tooling-boundary))
 - a REST client such as `curl` for reliable operational marker posting
 
